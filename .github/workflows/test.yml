@@ -13,4 +13,4 @@ jobs:
       with:
         python-version: ${{ matrix.python-version }}
     - name: Test
-      run: python3 -mdoctest *.py
+      run: python3 -mdoctest -v *.py
