@@ -1,8 +1,8 @@
-greet = "Hello, World!"
+greeting = "Hello, World!"
 
 def hello():
   """
   >>> hello()
   Hello, World!
   """
-  print(greet)
+  print(greeting)
